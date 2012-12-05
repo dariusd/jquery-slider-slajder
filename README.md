@@ -65,9 +65,9 @@ and fire slider plugin in `<script>` part, e.g.:
 ##Pagination
 
 slider's pagination is created dynamically (if `hasPagination` call parameter is set to `true`):  
-1. append `<div>` to slider container and set it's class to `slidesNumbers` and width to container's width
-2. append `<span>` element for each slide occuring in slider to `<div>` created in Step 1 and set `data-count` html attribute to slide's number
-3. bind click handler function to every `<span>` element created in previous step
+1. append `<div>` to slider container and set it's class to `slidesNumbers` and width to container's width  
+2. append `<span>` element for each slide occuring in slider to `<div>` created in Step 1 and set `data-count` html attribute to slide's number  
+3. bind click handler function to every `<span>` element created in previous step  
 
 you can style pagination's box by modifing proper lines in CSS file  
 
