@@ -68,9 +68,23 @@ slider's pagination is created dynamically (if `hasPagination` call parameter is
 1. append `<div>` to slider container and set it's class to `slidesNumbers` and width to container's width  
 2. append `<span>` element for each slide occuring in slider to `<div>` created in Step 1 and set `data-count` html attribute to slide's number  
 3. bind click handler function to every `<span>` element created in previous step  
-
+  
+   
+example of automatically generated part:
+```html
+  <div class="slidesNumbers" style="width: 600px;">
+    <span data-count="0" class="activeSlide">1</span>
+    <span data-count="1" class="">2</span>
+    <span data-count="2" class="">3</span>
+    <span data-count="3" class="">4</span>
+    <span data-count="4" class="">5</span>
+  </div>
+```
+  
+  
+  
 you can style pagination's box by modifing proper lines in CSS file  
-
-
+  
+    
 author: Dariusz Dzwigałowski  
 email: dariusd@wp.pl
