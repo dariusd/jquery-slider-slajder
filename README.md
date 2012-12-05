@@ -11,6 +11,8 @@ Download it from: <https://github.com/dariusd/jquery-slider-slajder>
 First add required files (script & CSS) in `<head>` part of your HTML document:
 
 ```html
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+
   <script type="text/javascript" src="scripts/jquery.slajder.js"></script>
         
   <link rel="stylesheet" type="text/css" href="scripts/jquery.slajder.css" />
@@ -28,6 +30,18 @@ Then you can add slider to your website by defining unordered list (`<ul>`) with
       </ul>
   </div>
 ```         
+
+and fire slider in `<script>` part:
+```html
+  <script type="text/javascript">
+    $('div#slideshow').Slajder();
+  </script>
+```
+##Features
+* Support for slide left, right and fade transitions
+* Clickable slides numbers
+* Automatic slides forwarding
+* Customizable slider's parameters by slider's call parameters
 
 author: Dariusz Dzwigałowski
 email: dariusd@wp.pl
