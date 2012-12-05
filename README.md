@@ -31,12 +31,13 @@ Then you can add slider to your website by defining unordered list (`<ul>`) with
   </div>
 ```         
 
-and fire slider in `<script>` part, e.g.:
+and fire slider plugin in `<script>` part, e.g.:
 ```html
   <script type="text/javascript">
     $('div#slideshow').Slajder();
   </script>
 ```
+
 ##Features
 * Support for slide left, right and fade transitions
 * Clickable slides numbers
@@ -45,12 +46,14 @@ and fire slider in `<script>` part, e.g.:
 
 ##Options
 * **forwardingSpeed** defaults to 3000
-  * time in miliseconds
+  * time in miliseconds describing how fast next slide will show up
 * **animationSpeed** defaults to 1000
-  * time in miliseconds
+  * time in miliseconds describing speed of whole animation
 * **effect** defaults to 'slideLeft'
-  * posible values: 'slideLeft', 'slideRight', 'fade', 'random'
+  * possible values: 'slideLeft', 'slideRight', 'fade', 'random'
+  * slide's transition's effects
 * **offset** defaults to 0
+  * additional offset (X axis) for slide shifting effect
 
-author: Dariusz Dzwigałowski
+author: Dariusz Dzwigałowski  
 email: dariusd@wp.pl
