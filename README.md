@@ -60,7 +60,11 @@ and fire slider plugin in `<script>` part, e.g.:
 * **offset** defaults to `0`
   * additional offset (X axis) for slide shifting effect
 * **hasPagination** defaults to `true`
+  * possible values: `true`,`false`
   * indicating whether slider should display clickable slides' numbers to toggle slides
+* **autoForward** default to `true`
+  * possible values: `true`,`false`
+  * indicates if slides should automatically change
 
 ##Pagination
 
