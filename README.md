@@ -8,7 +8,7 @@ Download it from: <https://github.com/dariusd/jquery-slider-slajder>
 
 ##How to use it
 
-First add required files (script & CSS) in **<head>** part of your HTML document:
+First add required files (script & CSS) in `<head>` part of your HTML document:
 
 ```html
   <script type="text/javascript" src="scripts/jquery.slajder.js"></script>
@@ -16,7 +16,7 @@ First add required files (script & CSS) in **<head>** part of your HTML document
   <link rel="stylesheet" type="text/css" href="scripts/jquery.slajder.css" />
 ```
 
-Then you can add slider to your website by defining unordered list (<ul>) with some <li> tag(s) with class="slide" attribute, e.g.:
+Then you can add slider to your website by defining unordered list (`<ul>`) with some `<li>` tag(s) with `class="slide"` attribute, e.g.:
 ```html
   <div id="slideshow">
       <ul>
