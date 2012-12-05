@@ -45,11 +45,11 @@ and fire slider in `<script>` part, e.g.:
 
 ##Options
 * **forwardingSpeed** defaults to 3000
-  time in miliseconds
+  * time in miliseconds
 * **animationSpeed** defaults to 1000
-  time in miliseconds
+  * time in miliseconds
 * **effect** defaults to 'slideLeft'
-  posible values: 'slideLeft', 'slideRight', 'fade', 'random'
+  * posible values: 'slideLeft', 'slideRight', 'fade', 'random'
 * **offset** defaults to 0
 
 author: Dariusz Dzwigałowski
