@@ -22,9 +22,9 @@ First add required files (scripts & CSS) in `<head>` part of your HTML document:
   <link rel="stylesheet" type="text/css" href="lib/jquery.slajder.css" />
 ```
 
-Then you can add slider to your website by defining unordered list (`<ul>`) with some `<li>` tag(s) with `class="slide"` attribute, e.g.:
+Then you can add slider to your website by defining unordered list (`<ul>`) with some `<li>` tag(s) with `class="slide"` attribute within html element that has `class=slider` attribute, e.g.:
 ```html
-  <div id="slideshow">
+  <div class="slider">
       <ul>
           <li class="slide active"><img src="images/0.jpg" /></li>
           <li class="slide"><img src="images/1.jpg" /></li>
@@ -39,7 +39,7 @@ Then you can add slider to your website by defining unordered list (`<ul>`) with
 and fire slider plugin in `<script>` part, e.g.:
 ```html
   <script type="text/javascript">
-      $('div#slideshow').Slajder();
+      $('div.slider').Slajder();
   </script>
 ```
 
@@ -59,7 +59,18 @@ and fire slider plugin in `<script>` part, e.g.:
   * slide's transition's effects
 * **offset** defaults to `0`
   * additional offset (X axis) for slide shifting effect
-  
+* **hasPagination** defaults to `true`
+  * indicating whether slider should display clickable slides' numbers to toggle slides
+
+##Pagination
+
+slider's pagination is created dynamically (if `hasPagination` call parameter is set to `true`):  
+1. append `<div>` to slider container and set it's class to `slidesNumbers` and width to container's width
+2. append `<span>` element for each slide occuring in slider to `<div>` created in Step 1 and set `data-count` html attribute to slide's number
+3. bind click handler function to every `<span>` element created in previous step
+
+you can style pagination's box by modifing proper lines in CSS file  
+
 
 author: Dariusz Dzwigałowski  
 email: dariusd@wp.pl

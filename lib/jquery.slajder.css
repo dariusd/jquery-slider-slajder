@@ -1,6 +1,6 @@
 
 /* Define properties for each single slide in slider */
-		* ul li.slide {
+		.slider ul li.slide {
 			display: none;
 			list-style-type: none;
 			padding: 0;
@@ -9,7 +9,7 @@
 		}
 
 /* Properties for current active (visible) slide */
-		* ul li.active {
+		.slider ul li.active {
 			display: block;
 			list-style-type: none;
 			padding: 0;
