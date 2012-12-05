@@ -1,0 +1,38 @@
+
+
+		* ul li.slide {
+			display: none;
+			list-style-type: none;
+			padding: 0;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		* ul li.active {
+			display: block;
+			list-style-type: none;
+			padding: 0;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.slidesNumbers {
+			text-align: center;
+		}
+		
+		.slidesNumbers span {
+			background-color: white;
+			display: inline-block;
+			border: solid 1px black;
+			margin: 3px;
+			border-radius: 3px;
+			width: 30px;
+			cursor: pointer;
+		}
+
+		.slidesNumbers span.activeSlide {
+			background-color: red;
+			border: maroon 1px solid;
+			color: white;
+			font-weight: 700;
+		}
