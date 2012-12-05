@@ -8,16 +8,16 @@ Download it from: <https://github.com/dariusd/jquery-slider-slajder>
 
 ##How to use it
 
-First add required files (script & CSS) in <head> part of your HTML document:
+First add required files (script & CSS) in **<head>** part of your HTML document:
 
-'''html
+```html
   <script type="text/javascript" src="scripts/jquery.slajder.js"></script>
         
   <link rel="stylesheet" type="text/css" href="scripts/jquery.slajder.css" />
-'''
+```
 
 Then you can add slider to your website by defining unordered list (<ul>) with some <li> tag(s) with class="slide" attribute, e.g.:
-'''html
+```html
   <div id="slideshow">
       <ul>
         <li class="slide active"><img src="images/0.jpg" /></li>
@@ -27,7 +27,7 @@ Then you can add slider to your website by defining unordered list (<ul>) with s
         <li class="slide"><img src="images/4.jpg" /></li>
       </ul>
   </div>
-'''          
+```         
 
 author: Dariusz Dzwigałowski
 email: dariusd@wp.pl
