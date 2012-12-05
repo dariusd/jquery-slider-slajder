@@ -30,6 +30,7 @@ Then you can add slider to your website by defining unordered list (`<ul>`) with
       </ul>
   </div>
 ```         
+`class="slide active"` defining which slide is initially visible
 
 and fire slider plugin in `<script>` part, e.g.:
 ```html
