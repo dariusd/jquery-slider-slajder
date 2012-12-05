@@ -1,5 +1,5 @@
 
-
+/* Define properties for each single slide in slider */
 		* ul li.slide {
 			display: none;
 			list-style-type: none;
@@ -8,6 +8,7 @@
 			text-align: center;
 		}
 
+/* Properties for current active (visible) slide */
 		* ul li.active {
 			display: block;
 			list-style-type: none;
@@ -16,10 +17,12 @@
 			text-align: center;
 		}
 
+/* Slide numbers box styling */
 		.slidesNumbers {
 			text-align: center;
 		}
 		
+/* Single slide number (span) formatting */
 		.slidesNumbers span {
 			background-color: white;
 			display: inline-block;
@@ -30,6 +33,7 @@
 			cursor: pointer;
 		}
 
+/* Active slide number span formatting */
 		.slidesNumbers span.activeSlide {
 			background-color: red;
 			border: maroon 1px solid;

@@ -6,6 +6,10 @@ jQuery slider Slajder is a animated slider's plugin created with jQuery library 
 
 Download it from: <https://github.com/dariusd/jquery-slider-slajder>
 
+There are also available minified (compressed) versions of required files:  
+<https://github.com/dariusd/jquery-slider-slajder/blob/master/lib/jquery.slajder.min.js>  
+<https://github.com/dariusd/jquery-slider-slajder/blob/master/lib/jquery.slajder.min.css>
+
 ##How to use it
 
 First add required files (scripts & CSS) in `<head>` part of your HTML document:
