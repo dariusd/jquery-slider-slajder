@@ -13,9 +13,9 @@ First add required files (script & CSS) in `<head>` part of your HTML document:
 ```html
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 
-  <script type="text/javascript" src="scripts/jquery.slajder.js"></script>
+  <script type="text/javascript" src="lib/jquery.slajder.js"></script>
         
-  <link rel="stylesheet" type="text/css" href="scripts/jquery.slajder.css" />
+  <link rel="stylesheet" type="text/css" href="lib/jquery.slajder.css" />
 ```
 
 Then you can add slider to your website by defining unordered list (`<ul>`) with some `<li>` tag(s) with `class="slide"` attribute, e.g.:
@@ -31,7 +31,7 @@ Then you can add slider to your website by defining unordered list (`<ul>`) with
   </div>
 ```         
 
-and fire slider in `<script>` part:
+and fire slider in `<script>` part, e.g.:
 ```html
   <script type="text/javascript">
     $('div#slideshow').Slajder();
@@ -42,6 +42,15 @@ and fire slider in `<script>` part:
 * Clickable slides numbers
 * Automatic slides forwarding
 * Customizable slider's parameters by slider's call parameters
+
+##Options
+* **forwardingSpeed** defaults to 3000
+  time in miliseconds
+* **animationSpeed** defaults to 1000
+  time in miliseconds
+* **effect** defaults to 'slideLeft'
+  posible values: 'slideLeft', 'slideRight', 'fade', 'random'
+* **offset** defaults to 0
 
 author: Dariusz Dzwigałowski
 email: dariusd@wp.pl
