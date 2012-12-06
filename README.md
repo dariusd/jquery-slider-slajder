@@ -91,7 +91,7 @@ you can style pagination's box by modifing proper lines in CSS file
   
 ## CSS styling of slider's components
     
-If you want change some CSS properties (e.g. colors, size) of slider's parts you should write proper CSS code (inline or in new external CSS file) **applying it to `<ul>` element inside container** (don't style container element if you want change slider's apperance because it won't go that way)  
+If you want change some CSS properties (e.g. colors, size) of slider's parts you should write proper CSS code (inline or in new external CSS file) **applying it to `<ul>` element inside container and its descendants** (don't style container element if you want change slider's apperance because it won't go that way)  
   
     
     
