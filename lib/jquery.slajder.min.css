@@ -1,5 +1,5 @@
 .slider ul li.slide{display:none;list-style-type:none;text-align:center;margin:0 auto;padding:0}
 .slider ul li.active{display:block;list-style-type:none;text-align:center;margin:0 auto;padding:0}
-.slidesNumbers{text-align:center}
-.slidesNumbers span{background-color:#FFF;display:inline-block;border:solid 1px #000;border-radius:3px;width:30px;cursor:pointer;margin:3px}
-.slidesNumbers span.activeSlide{background-color:red;border:maroon 1px solid;color:#FFF;font-weight:700}
+.slider .slidesNumbers{text-align:center}
+.slider .slidesNumbers span{background-color:#FFF;display:inline-block;border:solid 1px #000;border-radius:3px;width:30px;cursor:pointer;margin:3px}
+.slider .slidesNumbers span.activeSlide{background-color:red;border:maroon 1px solid;color:#FFF;font-weight:700}

@@ -18,12 +18,12 @@
 		}
 
 /* Slide numbers box styling */
-		.slidesNumbers {
+		.slider .slidesNumbers {
 			text-align: center;
 		}
 		
 /* Single slide number (span) formatting */
-		.slidesNumbers span {
+		.slider .slidesNumbers span {
 			background-color: white;
 			display: inline-block;
 			border: solid 1px black;
@@ -34,7 +34,7 @@
 		}
 
 /* Active slide number span formatting */
-		.slidesNumbers span.activeSlide {
+		.slider .slidesNumbers span.activeSlide {
 			background-color: red;
 			border: maroon 1px solid;
 			color: white;
