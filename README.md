@@ -34,7 +34,7 @@ Then you can add slider to your website by defining unordered list (`<ul>`) with
       </ul>
   </div>
 ```         
-(`class="slide active"` defining which slide is initially visible)
+(`class="slide active"` defining which slide is initially visible and **exactly one slides with this class set up is required** for proper work)
 
 and fire slider plugin in `<script>` part, e.g.:
 ```html
@@ -88,6 +88,10 @@ example of automatically generated part:
   
   
 you can style pagination's box by modifing proper lines in CSS file  
+  
+##Styling slider's internals
+    
+If you want change some CSS properties (e.g. colors, size) of slider's parts you should write proper CSS code (inline or in new external CSS file) **applying it to `<ul>` element inside container** (don't style container element if you want change slider's apperance because it won't go that way)  
   
     
 author: Dariusz Dzwigałowski  
